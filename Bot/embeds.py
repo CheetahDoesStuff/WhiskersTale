@@ -2,9 +2,9 @@ import discord
 
 embeds = {
     "!ping":discord.Embed(
-                title="Pong!",
+                title="🏓  Pong!",
                 description="This is a test message to make sure the bot is online!",
-                color=0x00ff00
+                color=0xff0000
             ),
     
     "!steam":discord.Embed(

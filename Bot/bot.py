@@ -20,6 +20,12 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if 
+    try:
+        embed = next((v for k, v in embeds.items() if message.content.startswith(k)), None)
+        await message.channel.send(embed=embed)
+    except Exception:
+        return
 
-client.run(TOKEN)
+
+def runBot():
+    client.run(TOKEN)
