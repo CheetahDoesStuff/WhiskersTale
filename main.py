@@ -1,6 +1,3 @@
-def main():
-    print("Hello from whiskerstale!")
+import dotenv
 
-
-if __name__ == "__main__":
-    main()
+TOKEN = dotenv.dotenv_values("TOKEN")
