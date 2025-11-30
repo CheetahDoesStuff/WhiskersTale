@@ -1,6 +1,22 @@
 import discord
 
 embeds = {
+
+    "!commands":discord.Embed(
+                title="Commands",
+                description=(
+                    "This is a complete list of all '!' commands availble.\n"
+                    "**Rules**\n"
+                    "  >  **'!rules'** - Displays a complete list of the servers rules.\n"
+                    "  >  **'!rule (1-10)'** - Displays a single rule, for pointing out if someone is breaking a rule in chat."
+                    "**Game**\n"
+                    "  >  **'!steam'** - Provides the steam link to the game!"
+                    "**Misc**\n"
+                    "  >  **'!ping'** - A simple test command, used to check if the bot is online."
+                ),
+                color=0x38ff92
+            ),
+
     "!ping":discord.Embed(
                 title="🏓  Pong!",
                 description="This is a test message to make sure the bot is online!",
