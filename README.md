@@ -1,0 +1,1 @@
+A discord bot made for the Whiskers Tale Discord server
