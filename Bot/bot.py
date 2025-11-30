@@ -4,7 +4,7 @@ import discord
 from Bot.embeds import embeds
 
 dotenv.load_dotenv()
-TOKEN = getenv("TOKEN")
+TOKEN = str(getenv("TOKEN")) # Had to add this so ty shuts up
 
 intents = discord.Intents.default()
 intents.message_content = True
