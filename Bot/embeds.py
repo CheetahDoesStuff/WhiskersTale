@@ -42,7 +42,8 @@ embeds = {
                 title="Rule 1",
                 description=(
                     "**Rule 1: No NSFW or R34.**\n"
-                    "No jokes about it are allowed either. Breaking this will result in a **permanent ban**."
+                    "No jokes about it are allowed either.\n"
+                    "Breaking this will result in a **permanent ban**."
                 ),
                 color=0xff4938
             ),
@@ -51,7 +52,8 @@ embeds = {
                 title="Rule 2",
                 description=(
                     "**Rule 2: Respect everyone.**\n"
-                    "Breaking this will result in a **1 week timeout**."
+                    "Breaking this will result in a **1 week timeout**.\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -68,7 +70,8 @@ embeds = {
     "!rule 4": discord.Embed(
                 title="Rule 4",
                 description=(
-                    "**Rule 4: English only in all server channels.**"
+                    "**Rule 4: English only in all server channels.**\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -76,7 +79,8 @@ embeds = {
     "!rule 5": discord.Embed(
                 title="Rule 5",
                 description=(
-                    "**Rule 5: No begging for roles, mod, sneak peeks, etc.**"
+                    "**Rule 5: No begging for roles, mod, sneak peeks, etc.**\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -85,7 +89,8 @@ embeds = {
                 title="Rule 6",
                 description=(
                     "**Rule 6: Do not ping or annoy the owner (Whisker) or moderators.**\n"
-                    "You *are* allowed to ping mods **if someone is breaking rules**."
+                    "You *are* allowed to ping mods **if someone is breaking rules**.\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -93,8 +98,9 @@ embeds = {
     "!rule 7": discord.Embed(
                 title="Rule 7",
                 description=(
-                    "**Rule 7: No AI art anywhere in the server.**\n"
-                    "No NSFW/R34 pfps, bios, or banners. Do not steal art."
+                    "**Rule 7: No AI/Nsfw/Stolen art anywhere in the server.**\n"
+                    "No NSFW/R34 pfps, bios, or banners. Do not steal art.\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -103,7 +109,8 @@ embeds = {
                 title="Rule 8",
                 description=(
                     "**Rule 8: No pedophiles. Do not go after minors.**\n"
-                    "This is a safe community for everyone, including minors."
+                    "This is a safe community for everyone, including minors.\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -112,7 +119,8 @@ embeds = {
                 title="Rule 9",
                 description=(
                     "**Rule 9: Do not find or use loopholes in the rules.**\n"
-                    "Moderators always have the final say."
+                    "Moderators always have the final say.\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
                 ),
                 color=0xff4938
             ),
@@ -120,7 +128,8 @@ embeds = {
     "!rule 10": discord.Embed(
             title="Rule 10",
             description=(
-                "**Rule 10: Follow Discord ToS.**"
+                "**Rule 10: Follow Discord ToS.**\n"
+                    "Breaking this rule will result in a punishment decided by the present mod."
             ),
             color=0xff4938
         ),
