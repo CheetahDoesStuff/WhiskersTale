@@ -23,16 +23,16 @@ embeds = {
                 description=(
                     "**By joining the server you agree to our rules, breaking them may result in appropriate punishment.** \n"
                     "\n"
-                    "* Rule 1: No NSFW and r34, no jokes about it is allowed either. Breaking this will result in a permanent ban.\n"
-                    "* Rule 2: Respect everyone. Breaking this will result in a 1 week timout.\n"
-                    "* Rule 3: Do not be rude or mean, bullying is not allowed either. Breaking this will result in a 1 day timeout.\n"
-                    "* Rule 4: English only in all of the servers channels.\n"
-                    "* Rule 5: No begging for roles, mod, sneak peeks etc.\n"
-                    "* Rule 6: Don't ping or annoy the owner (Whisker) or moderators. You are allowed to ping mods if someone is breaking rules.\n"
-                    "* Rule 7: No ai art anywhere in the server. No nsfw/r34 pfps/bio/banners. Don't steal art.\n"
-                    "* Rule 8: No pedophiles nor going after minors. We are a safe community for everyone, including minors.\n"
-                    "* Rule 9: Don't find/use loopholes in the rules, moderators always has the final say.\n"
-                    "* Rule 10: Follow discord TOS."
+                    "* **Rule 1:** No NSFW and r34, no jokes about it is allowed either. Breaking this will result in a permanent ban.\n"
+                    "* **Rule 2:** Respect everyone. Breaking this will result in a 1 week timout.\n"
+                    "* **Rule 3:** Do not be rude or mean, bullying is not allowed either. Breaking this will result in a 1 day timeout.\n"
+                    "* **Rule 4:** English only in all of the servers channels.\n"
+                    "* **Rule 5:** No begging for roles, mod, sneak peeks etc.\n"
+                    "* **Rule 6:** Don't ping or annoy the owner (Whisker) or moderators. You are allowed to ping mods if someone is breaking rules.\n"
+                    "* **Rule 7:** No ai art anywhere in the server. No nsfw/r34 pfps/bio/banners. Don't steal art.\n"
+                    "* **Rule 8:** No pedophiles nor going after minors. We are a safe community for everyone, including minors.\n"
+                    "* **Rule 9:** Don't find/use loopholes in the rules, moderators always has the final say.\n"
+                    "* **Rule 10:** Follow discord TOS."
                     "\n"
                     "Moderators have the right to punish regardless of if you think you broke the rules or not. Moderators always has the final say."
                 ),
@@ -118,11 +118,11 @@ embeds = {
             ),
 
     "!rule 10": discord.Embed(
-                title="Rule 10",
-                description=(
-                    "**Rule 10: Follow Discord ToS.**"
-                ),
-                color=0xff4938
+            title="Rule 10",
+            description=(
+                "**Rule 10: Follow Discord ToS.**"
             ),
+            color=0xff4938
+        ),
 
 }
