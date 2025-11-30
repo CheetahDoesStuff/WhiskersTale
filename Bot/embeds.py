@@ -16,5 +16,113 @@ embeds = {
                     "of supporting further development!"
                 ),
                 color=0x346eeb
-            )
+            ),
+
+    "!rules":discord.Embed(
+                title="Rules",
+                description=(
+                    "**By joining the server you agree to our rules, breaking them may result in appropriate punishment.** \n"
+                    "\n"
+                    "* Rule 1: No NSFW and r34, no jokes about it is allowed either. Breaking this will result in a permanent ban.\n"
+                    "* Rule 2: Respect everyone. Breaking this will result in a 1 week timout.\n"
+                    "* Rule 3: Do not be rude or mean, bullying is not allowed either. Breaking this will result in a 1 day timeout.\n"
+                    "* Rule 4: English only in all of the servers channels.\n"
+                    "* Rule 5: No begging for roles, mod, sneak peeks etc.\n"
+                    "* Rule 6: Don't ping or annoy the owner (Whisker) or moderators. You are allowed to ping mods if someone is breaking rules.\n"
+                    "* Rule 7: No ai art anywhere in the server. No nsfw/r34 pfps/bio/banners. Don't steal art.\n"
+                    "* Rule 8: No pedophiles nor going after minors. We are a safe community for everyone, including minors.\n"
+                    "* Rule 9: Don't find/use loopholes in the rules, moderators always has the final say.\n"
+                    "* Rule 10: Follow discord TOS."
+                    "\n"
+                    "Moderators have the right to punish regardless of if you think you broke the rules or not. Moderators always has the final say."
+                ),
+                color=0xff4938
+            ),
+    "!rule 1": discord.Embed(
+                title="Rule 1",
+                description=(
+                    "**Rule 1: No NSFW or R34.**\n"
+                    "No jokes about it are allowed either. Breaking this will result in a **permanent ban**."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 2": discord.Embed(
+                title="Rule 2",
+                description=(
+                    "**Rule 2: Respect everyone.**\n"
+                    "Breaking this will result in a **1 week timeout**."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 3": discord.Embed(
+                title="Rule 3",
+                description=(
+                    "**Rule 3: Do not be rude or mean. Bullying is not allowed.**\n"
+                    "Breaking this will result in a **1 day timeout**."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 4": discord.Embed(
+                title="Rule 4",
+                description=(
+                    "**Rule 4: English only in all server channels.**"
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 5": discord.Embed(
+                title="Rule 5",
+                description=(
+                    "**Rule 5: No begging for roles, mod, sneak peeks, etc.**"
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 6": discord.Embed(
+                title="Rule 6",
+                description=(
+                    "**Rule 6: Do not ping or annoy the owner (Whisker) or moderators.**\n"
+                    "You *are* allowed to ping mods **if someone is breaking rules**."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 7": discord.Embed(
+                title="Rule 7",
+                description=(
+                    "**Rule 7: No AI art anywhere in the server.**\n"
+                    "No NSFW/R34 pfps, bios, or banners. Do not steal art."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 8": discord.Embed(
+                title="Rule 8",
+                description=(
+                    "**Rule 8: No pedophiles. Do not go after minors.**\n"
+                    "This is a safe community for everyone, including minors."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 9": discord.Embed(
+                title="Rule 9",
+                description=(
+                    "**Rule 9: Do not find or use loopholes in the rules.**\n"
+                    "Moderators always have the final say."
+                ),
+                color=0xff4938
+            ),
+
+    "!rule 10": discord.Embed(
+                title="Rule 10",
+                description=(
+                    "**Rule 10: Follow Discord ToS.**"
+                ),
+                color=0xff4938
+            ),
+
 }
